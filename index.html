@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="form-container">
+        <h1>Dzień dobry!</h1>
+            <form id="formpage">
+            <div class="field">
+                <label for="email1">Email</label>
+                <input type="email1" id="email1" autocomplete="off"><br>
+            </div>
+            <div class="field">
+                <label for="password1">Hasło</label>
+                <input type="password1" id="password1"><br>
+            </div>
+            <div class="field">
+                <label for="repeat-password1">Powtórz hasło</label>
+                <input type="repeat-password1" id="repeat-password1">
+            </div>
+            <div class="field">
+            <input type="submit" value="Zarejestruj!"/>
+            </div>
+        </form>
+    </main>
+    <main id="welcome-screen" hidden>
+        <h1>Rejestracja zakończona!</h1>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>

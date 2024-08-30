@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+body,html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: papayawhip;
+}
+h1 {
+    text-align: center;
+}
+main {
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.field {
+    margin-bottom: 40px;
+}
+.field input {
+    display: block;
+    width: 500px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 15px;
+}
+.field input[type="submit"] {
+    color: white;
+    background-color: turquoise;
+    border-radius: 4px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+.field input[type="submit"]:active {
+    background-color: rgb(0, 255, 21);
+}
+.field .error {
+    color: red;
+}
+
+#rules {
+    width: auto;
+}
